@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Show header and app pages only when logged in */}
+      
       {loggedIn && (
         <Header 
           currentPage={currentPage} 
