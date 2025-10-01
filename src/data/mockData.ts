@@ -26,14 +26,37 @@ export const mockMusicians: MusicianProfile[] = [
         price: 25000,
         duration: '4 weeks',
         level: 'Beginner',
-        thumbnail: 'https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg?auto=compress&cs=tinysrgb&w=400'
+        thumbnail: 'https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg?auto=compress&cs=tinysrgb&w=400',
+          verified: true,
+    verifiedIcon: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='10' fill='%231DA1F2'/><path d='M9.5 13.8l-2.2-2.2-1.4 1.4 3.6 3.6 8.6-8.6-1.4-1.4z' fill='%23fff'/></svg>"
       }
     ]
+  },
+    {
+    id: '6',
+    name: 'Praise Voices Choir',
+    type: 'band',
+    location: 'Lagos, Nigeria',
+    bio: 'A 12-member gospel choir specializing in traditional and contemporary praise and worship music. Perfect for church events and religious ceremonies.',
+    profileImage: 'https://images.pexels.com/photos/1105667/pexels-photo-1105667.jpeg?auto=compress&cs=tinysrgb&w=400',
+    instruments: ['Vocals', 'Piano', 'Organ'],
+    skillLevel: 'Professional',
+    experience: 15,
+    hourlyRate: 60000,
+    rating: 4.9,
+    reviewCount: 52,
+    completedGigs: 167,
+    featured: true,
+    availability: ['weekends', 'evenings'],
+    // verification fields
+    verified: true,
+    verifiedIcon: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='10' fill='%231DA1F2'/><path d='M9.5 13.8l-2.2-2.2-1.4 1.4 3.6 3.6 8.6-8.6-1.4-1.4z' fill='%23fff'/></svg>"
   },
   {
     id: '2',
     name: 'The Harmony Band',
     type: 'band',
+    
     location: 'Abuja, Nigeria',
     bio: 'A versatile 5-piece band specializing in gospel, afrobeat, and contemporary music. Perfect for weddings, corporate events, and church programs.',
     profileImage: 'https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=400',
